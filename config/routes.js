@@ -3,9 +3,10 @@
  * Module dependencies.
  */
 
+
 var mongoose = require('mongoose');
 var home = require('home');
-
+var ArticuloCtrl = require('articulos');
 /**
  * Expose
  */
@@ -17,6 +18,9 @@ module.exports = function (app, passport) {
   /**
    * Error handling
    */
+
+  app.route('/articulos').get(ArticuloCtrl.dameArticulos);
+  app.route('/articulos').post(ArticuloCtrl.nuevo);
 
   app.use(function (err, req, res, next) {
     // treat as 404
@@ -37,4 +41,6 @@ module.exports = function (app, passport) {
       error: 'Not found'
     });
   });
+
+ 
 };
