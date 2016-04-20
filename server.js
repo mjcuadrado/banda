@@ -15,7 +15,7 @@ var port = process.env.PORT || 3000;
 // Connect to mongodb
 var connect = function () {
   var options = { server: { socketOptions: { keepAlive: 1 } } };
-  mongoose.connect(banda.db, options);
+  mongoose.connect(bconfig.db,options);
 };
 connect();
 
