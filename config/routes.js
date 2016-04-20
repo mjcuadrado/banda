@@ -18,6 +18,7 @@ module.exports = function (app, passport) {
   /**
    * Error handling
    */
+   
 
   app.route('/articulos').get(ArticuloCtrl.dameArticulos);
   app.route('/articulos').post(ArticuloCtrl.nuevo);
