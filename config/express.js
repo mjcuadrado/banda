@@ -65,6 +65,11 @@ module.exports = function (app, passport) {
     next();
   });
 
+  app.use(function (request, response, next) {
+  response.locals.csrftoken = request.csrfToken();
+  next();
+});
+
   // bodyParser should be above methodOverride
   app.use(bodyParser.urlencoded({
     extended: true
