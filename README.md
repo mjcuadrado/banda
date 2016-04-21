@@ -9,7 +9,9 @@ Este servicio está pensado para ser consumido por alguna apliación (IOS/Androi
 ##TODO
 Gestión usuarios y publicación de noticias
 
-Basado en Node Express Mongoose de madhums.
+## NOTAS Y AGRADECIMIENTOS
+
+Basado en Node Express Mongoose de madhums. THANKS
 
 Leer (https://github.com/madhums/node-express-mongoose/wiki) si no se entiende la estructura
 
