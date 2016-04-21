@@ -8,7 +8,6 @@ var express = require('express');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var config = require('config');
-var csrf = require('csrf');
 
 var app = express();
 var port = process.env.PORT || 3001;
@@ -36,8 +35,6 @@ require('./config/express')(app, passport);
 
 // Bootstrap routes
 require('./config/routes')(app, passport);
-
-app.use(csrf());
 
 app.listen(port);
 
