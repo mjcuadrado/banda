@@ -11,7 +11,7 @@ Leer(https://github.com/madhums/node-express-mongoose/wiki) si no se entiende la
 
 ## Installation and Usage
 
-    $ git clone https://github.com/madhums/node-express-mongoose.git
+    $ git clone https://github.com/mjcuadrado/banda
     $ cd node-express-mongoose
     $ npm install
 	$ mongo>use banda
