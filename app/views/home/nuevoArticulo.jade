@@ -3,7 +3,7 @@ extends ../layouts/default.jade
 block main
   h2= title
 block content
-	form(name="login", action="/noticias", method="post")
+	form(action="/noticias", method="post")
 		input(type="text", name="title")
 		input(type="text", name="summary")
 		input(type="text", name="content")
