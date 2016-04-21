@@ -14,6 +14,7 @@ var defaults = {
   root: path.normalize(__dirname + '/..')
 };
 
+var db ="banda";
 /**
  * Expose
  */
