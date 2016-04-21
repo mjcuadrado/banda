@@ -3,22 +3,19 @@
 [![Dependencies](https://img.shields.io/david/madhums/node-express-mongoose.svg?style=flat)](https://david-dm.org/madhums/node-express-mongoose)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/madhums/node-express-mongoose?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-## Node Express Mongoose
+## Servicio Node+Mongose de gestión de noticias
 
-A boilerplate application for building web apps using express, mongoose and passport.
+Basado en Node Express Mongoose de madhums.
 
-Read the [wiki](https://github.com/madhums/node-express-mongoose/wiki) to understand how the application is structured.
+Leer(https://github.com/madhums/node-express-mongoose/wiki) si no se entiende la structura
 
 ## Installation and Usage
 
     $ git clone https://github.com/madhums/node-express-mongoose.git
     $ cd node-express-mongoose
     $ npm install
+	$ mongo>use banda
     $ npm start
-
-Add routes (`config/routes.js`), create models (`app/models/`), views (`app/views/`) and controllers (`app/controllers/`).
-
-Checkout the [apps that are built using this approach](https://github.com/madhums/node-express-mongoose/wiki/Apps-built-using-this-approach)
 
 ## License
 
