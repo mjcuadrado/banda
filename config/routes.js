@@ -44,5 +44,9 @@ module.exports = function (app, passport) {
     });
   });
 
+  app.use(function (request, response, next) {
+    response.locals.csrftoken = request.csrfToken();
+    next();
+  });
  
 };
