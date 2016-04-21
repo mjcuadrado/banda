@@ -14,14 +14,14 @@ var ArticuloCtrl = require('articulos');
 module.exports = function (app, passport) {
 
   app.get('/', home.index);
-
+  app.get('/nuevo', crud.nuevoArticulo);
   /**
    * Error handling
    */
    
 
-  app.route('/articulos').get(ArticuloCtrl.dameArticulos);
-  app.route('/articulos').post(ArticuloCtrl.nuevo);
+  app.route('/noticias').get(ArticuloCtrl.dameArticulos);
+  app.route('/noticias').post(ArticuloCtrl.nuevo);
 
   app.use(function (err, req, res, next) {
     // treat as 404
