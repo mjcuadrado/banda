@@ -6,7 +6,7 @@
 
 var mongoose = require('mongoose');
 var home = require('home');
-var crud = require('home');
+var crud = require('crud');
 var ArticuloCtrl = require('articulos');
 /**
  * Expose
