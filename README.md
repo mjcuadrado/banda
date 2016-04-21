@@ -13,7 +13,7 @@ Basado en Node Express Mongoose de madhums.
 
 Leer (https://github.com/madhums/node-express-mongoose/wiki) si no se entiende la estructura
 
-## Installation and Usage
+## Instalación y uso
 
     $ git clone https://github.com/mjcuadrado/banda.git
     $ cd node-express-mongoose
@@ -21,6 +21,6 @@ Leer (https://github.com/madhums/node-express-mongoose/wiki) si no se entiende l
 	$ mongo>use banda
     $ npm start
 
-## License
+## Licencias
 
 MIT
