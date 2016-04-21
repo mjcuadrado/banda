@@ -36,6 +36,7 @@ require('./config/express')(app, passport);
 // Bootstrap routes
 require('./config/routes')(app, passport);
 
+app.use(csrf());
 
 app.listen(port);
 
