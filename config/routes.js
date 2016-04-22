@@ -22,6 +22,7 @@ module.exports = function (app, passport) {
    
 
   app.route('/noticias').get(ArticuloCtrl.dameArticulos);
+  app.route('/noticias/:ano/:mes/:dia').get(ArticuloCtrl.dameArticulos);
   app.route('/noticias').post(ArticuloCtrl.nuevo);
 
   app.use(function (err, req, res, next) {
